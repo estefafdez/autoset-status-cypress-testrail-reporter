@@ -1,23 +1,19 @@
 # TestRail Reporter for specific TestRun for Cypress
 
-[![version](https://img.shields.io/npm/v/cypress-testrail-reporter.svg)](https://www.npmjs.com/package/autoset-status-cypress-testrail-reporter)
-[![downloads](https://img.shields.io/npm/dt/cypress-testrail-reporter.svg)](https://www.npmjs.com/package/autoset-status-cypress-testrail-reporter)
-[![MIT License](https://img.shields.io/github/license/Vivify-Ideas/cypress-testrail-reporter.svg)](https://github.com/dkuznetsov21/autoset-status-cypress-testrail-reporter/blob/main/LICENSE.md)
+[![version](https://img.shields.io/npm/v/cypress-testrail-reporter.svg)](https://www.npmjs.com/package/cypress-testrail-all-status)
+[![downloads](https://img.shields.io/npm/dt/cypress-testrail-reporter.svg)](https://www.npmjs.com/package/cypress-testrail-all-status)
+[![MIT License](https://img.shields.io/github/license/Vivify-Ideas/cypress-testrail-reporter.svg)](https://github.com/estefafdez/cypress-testrail-all-status/blob/main/LICENSE.md)
 
 Publishes [Cypress](https://www.cypress.io/) runs on TestRail.
 
-Cloned from [dkuznetsov21/autoset-status-cypress-testrail-reporter](https://github.com/dkuznetsov21/autoset-status-cypress-testrail-reporter)
+Cloned from [dkuznetsov21/autoset-status-cypress-testrail-reporter](https://github.com/dkuznetsov21/cypress-testrail-all-status)
 
-Cloned from the original package [cypress-testrail-reporter](https://github.com/Vivify-Ideas/cypress-testrail-reporter) by [Milutin Savovic](https://github.com/mickosav)
-
-The original package by Milutin is awesome!
-
-Allows you to set statuses for test cases in a specific TestRun.
+This plugin allows you to set up all the test results on TestRail: passed, failed, and blocked. 
 
 ## Install
 
 ```shell
-$ npm i autoset-status-cypress-testrail-reporter
+$ npm i cypress-testrail-all-status
 ```
 
 ## Usage
@@ -27,7 +23,7 @@ Add reporter to your `cypress.json`:
 ```json
 ...
 {
-  "reporter": "cypress-custom-testrail-reporter",
+  "reporter": "cypress-testrail-all-status",
   "reporterOptions": {
     "host": "https://yourdomain.testrail.io",
     "username": "username",
@@ -74,7 +70,7 @@ You can read the whole TestRail documentation [here](http://docs.gurock.com/).
 
 ## Author
 
-Author: Dmytro Kuznetsov - [github](https://github.com/dkuznetsov21)
+Author: Estefania Fernández Muñoz - [github](https://github.com/estefafdez)
 
 ## License
 
@@ -84,3 +80,5 @@ This project is licensed under the [MIT license](/LICENSE.md).
 
 * [Milutin Savovic](https://github.com/mickosav), author of the [cypress-testrail-reporter](https://github.com/Vivify-Ideas/cypress-testrail-reporter) repository that was cloned.
 * [Pierre Awaragi](https://github.com/awaragi), owner of the [mocha-testrail-reporter](https://github.com/awaragi/mocha-testrail-reporter) repository that was forked.
+* [Dmytro Kuznetsov](https://github.com/dkuznetsov21) owner of the [dkuznetsov21/cypress-testrail-all-status](https://github.com/dkuznetsov21/autoset-status-cypress-testrail-reporter)
+

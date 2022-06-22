@@ -1,7 +1,7 @@
 {
-  "name": "cypress-custom-testrail-reporter",
-  "version": "1.0.2",
-  "description": "A TestRail reporter for Test Run cypress including TestRail API basic library",
+  "name": "cypress-testrail-all-status",
+  "version": "1.0.4",
+  "description": "A TestRail reporter for Cypress",
   "main": "index.js",
   "private": false,
   "keywords": [
@@ -10,10 +10,6 @@
     "reporter"
   ],
   "author": {
-    "name": "Dmytro Kuznetsov",
-    "email": "dimonavich2014@gmail.com"
-  },
-  "author2": {
     "name": "Estefania Fdez",
     "email": "estefafdez@gmail.com"
   },
@@ -21,10 +17,10 @@
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/estefafdez/autoset-status-cypress-testrail-reporter.git"
+    "url": "https://github.com/estefafdez/cypress-testrail-all-status.git"
   },
   "bugs": {
-    "url": "https://github.com/estefafdez/autoset-status-cypress-testrail-reporter/issues"
+    "url": "https://github.com/estefafdez/cypress-testrail-all-status/issues"
   },
   "scripts": {
     "tsc": "tsc",
@@ -32,17 +28,17 @@
     "build": "npm run clean && npm run tsc"
   },
   "dependencies": {
-    "axios": "^0.21.4",
-    "chalk": "^4.1.2",
-    "mocha": "^9.1.1",
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "mocha": "^10.0.0",
     "npmrc": "^1.1.1"
   },
   "devDependencies": {
-    "@types/chai": "^4.2.22",
-    "@types/mocha": "^9.0.0",
-    "@types/node": "^16.9.6",
-    "chai": "^4.3.4",
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^18.0.0",
+    "chai": "^4.3.6",
     "rimraf": "^3.0.2",
-    "typescript": "^4.4.3"
+    "typescript": "^4.7.4"
   }
 }
